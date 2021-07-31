@@ -1,0 +1,173 @@
+/*Universal Styling*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+        font-family: Poppins;
+        
+}
+
+/*Navigasi Bar*/
+nav {
+    height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+        justify-content: space-evenly;
+        background-color: black;
+}
+
+nav img {
+    margin-left: 10px;
+}
+
+nav ul {
+    margin-left: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+    
+}
+
+nav ul li a {
+    margin-left: 70px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color:white;
+}
+
+nav ul li a:hover {
+    opacity: .7;
+}
+
+/*Style buat Scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #666;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+/*Konten Home - Shoe Of the Month*/
+
+.Main_Content_Home_1 {
+    padding: 2em;
+        display: grid;
+        text-align: center;
+}
+
+.Main_Content_Home_1 img {
+    cursor: pointer;
+}
+
+.judul_content1 {
+    font-size: 50px;
+    padding-bottom: 2em;
+    
+}
+
+.keterangan_content {
+    padding: 5em;
+}
+.keterangan_content h2 {
+    font-size: 30px;
+    color: #f792cc
+    
+}
+
+.keterangan_content p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.btn_buy1 {
+    margin-top: 25px;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+        font-size: 18px;
+        color: #ffff ;
+        background-color: black;  
+            cursor: pointer;
+}
+
+.btn_buy1:hover {
+    opacity: .7;
+}
+
+/*Konten Home - Unique Shoe*/
+.Main_Content_Home_2 {
+    background-color: #f6f6f6;
+}
+
+.Main_Content_Home_2 img {
+    width: 100%;
+    height: 100%;
+        cursor: pointer;
+}
+
+.judul_content2 {
+    margin-left: 3em;
+}
+.judul_content2 h1 {
+    padding-top: 1em;
+        font-size: 50px;
+}
+
+.judul_content2 p {
+    padding-right: 30em;
+        font-size: 25px;
+        text-align: justify;
+}
+
+.btn_buy2 {
+    margin-top: 25px;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+        font-size: 18px;
+        color: #ffff ;
+        background-color: black;  
+            cursor: pointer;
+}
+
+.btn_buy2:hover {
+    opacity: .7;
+}
+
+.sepatu_content2 {
+    padding-left: 45em;    
+    width: 50%;
+}
+
+
+/*Footer Bar*/
+
+.footer_bar {
+    height: 200px;
+    display: flex;
+    flex-direction: column;          
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.footer_bar h1 {
+    padding-left: 2em;
+    color: #ffff;
+}
+    
+.footer_bar h3 {
+    padding-right: 2em;
+    color: white;
+    text-align: right;
+}

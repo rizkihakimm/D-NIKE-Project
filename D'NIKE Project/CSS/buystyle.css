@@ -1,0 +1,162 @@
+/*Universal Styling*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+        font-family: Poppins;
+        
+}
+
+/*Navigasi Bar*/
+nav {
+    height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+        justify-content: space-evenly;
+        background-color: black;
+}
+
+nav img {
+    margin-left: 10px;
+}
+
+nav ul {
+    margin-left: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+    
+}
+
+nav ul li a {
+    margin-left: 70px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color:white;
+}
+
+nav ul li a:hover {
+    opacity: .7;
+}
+
+/*buy style page*/
+
+h2{
+    margin-top: 1em;
+    padding-bottom: 1em;
+    font-size: 35px;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+
+.error {
+    color: red;
+    border-color: red;
+}
+
+.Kontainerpagebuy {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.boxbilingpayment {
+    margin-top: 1em;
+    -ms-flex: 50%; 
+    flex: 50%;
+}
+
+.boxluarbuy {
+    margin-bottom: 3em;
+    -ms-flex: 75%; 
+    flex: 75%;
+}
+
+.boxbilingpayment,.boxproduk,.boxluarbuy {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 3px 18px 13px 18px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+}
+
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(130, 26, 26);
+    border-radius: 1px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.btnbuypage {
+    background-color: #01BAEF;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+
+}
+
+.btnbuypage:hover {
+    background-color: black;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+@media (max-width: 800px) {
+    .Kontainerpagebuy {
+        flex-direction: column-reverse;
+    }
+    .boxproduk {
+        margin-bottom: 20px;
+    }
+}
+
+/*Footer Bar*/
+
+.footer_bar {
+    height: 200px;
+    display: flex;
+    flex-direction: column;          
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.footer_bar h1 {
+    padding-left: 2em;
+    color: #ffff;
+}
+    
+.footer_bar h3 {
+    padding-right: 2em;
+    color: white;
+    text-align: right;
+}

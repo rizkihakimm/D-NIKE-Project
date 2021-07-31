@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/buystyle.css">
+    <link rel="shortcut icon" href="Image/Logo & Favicon/Logo Favicon DNike.png">
+    <title>Buy Page</title>
+</head>
+<body>
+
+    <nav id="Navigasi_Bar">
+        <img src="Image/Logo & Favicon/DNIKE Logo.png" alt="Logo DNIKE" width="8%" >
+
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="GalleryMen.html">Gallery</a></li>
+            <li><a href="Buy.html">Buy</a></li>
+            <li><a href="Testimonial.html">Testimonial</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+
+<h2>Buy Form</h2>
+<div class="Kontainerpagebuy">
+    <div class="boxluarbuy">
+        <div class="container">
+            <form id="validate" action="Home.html">
+                <div class="Kontainerpagebuy">
+                    <div class="boxbilingpayment">
+                        <h3>Billing Address</h3>
+
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" placeholder="Full Name" required minlength="5" maxlength="25" autocomplete="off">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Email" required autocomplete="off">
+
+                        <label for="adr">Address</label>
+                        <input type="text" id="adr" placeholder="Address" required autocomplete="off">
+
+                        <label for="city">City</label >
+                        <input type="text" id="city" placeholder="City" required autocomplete="off">
+
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option value="gender">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+
+                        <div class="Kontainerpagebuy">
+                            <div class="boxbilingpayment">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="State"required autocomplete="off">
+                            </div>
+                            <div class="boxbilingpayment">
+                                <label for="postalcode">Postal Code</label>
+                                <input type="text" id="postalcode" name="postalcode" placeholder="15123" required autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxbilingpayment">
+                        <h3>Payment</h3>
+
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" placeholder="Name on Card"required autocomplete="off">
+
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" placeholder="1111-2222-3333-4444"required autocomplete="off">
+
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" placeholder="Exp Month"required autocomplete="off">
+
+                        <div class="Kontainerpagebuy">
+                            <div class="boxbilingpayment">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" placeholder="2024"required autocomplete="off">
+                            </div>
+                            <div class="boxbilingpayment">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" placeholder="352"required autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <label>
+                <input type="checkbox"> Shipping address same as billing
+                </label>
+
+                <input type="submit" value="Continue to checkout" class="btnbuypage">
+            </form>
+        </div>
+    </div>
+    <div class="boxproduk">
+        <div class="container">
+            <label for="product">Product</label>
+            <select id="product">
+                <option value="product">Select Product</option>
+                <option value="jordandelta2">Jordan Delta 2</option>
+                <option value="airmaxgenome">Air Max Genome</option>
+                <option value="nikeairvapormax">Nike Air VaporMax 2020FK</option>
+                <option value="nikeairmaxplus">Nike Air Max Plus</option>
+            </select>  
+        </div>
+    </div>
+</div>
+
+<footer class="footer_bar">
+    <h1>Group 6</h1>
+    <h3>Andre Timiko Siahaan</h3>   
+    <h3>Rizki Nur Hakim</h3>
+</footer>
+
+</body>
+</html>
